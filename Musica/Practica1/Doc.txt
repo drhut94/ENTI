@@ -1,0 +1,5 @@
+ 
+He selecionado el primer segmento donde suben los db de los agudos y los he equalizado bajando la intensidad a partir de los 2k hz. A continuación he selecionado los segmentos
+en los que se escuchaban mas los agudos y los he recortado.
+
+He duplicado la pista y la he hecho stereo. Despues he desplazado unos pocos milisegundos la segunda pista y he augmentado un poco los agudos de la primera pista.

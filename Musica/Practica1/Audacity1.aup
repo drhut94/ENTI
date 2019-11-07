@@ -1,0 +1,28 @@
+<?xml version="1.0" standalone="no" ?>
+<!DOCTYPE project PUBLIC "-//audacityproject-1.3.0//DTD//EN" "http://audacity.sourceforge.net/xml/audacityproject-1.3.0.dtd" >
+<project xmlns="http://audacity.sourceforge.net/xml/" projname="Audacity1_data" version="1.3.0" audacityversion="2.3.2" sel0="0.0119954649" sel1="2.9468526077" selLow="11596.2441406250" selHigh="11596.2441406250" vpos="0" h="0.0000000000" zoom="583.3333333333" rate="44100.0" snapto="off" selectionformat="hh:mm:ss + milliseconds" frequencyformat="Hz" bandwidthformat="octaves">
+	<tags/>
+	<wavetrack name="gunshot_original" channel="2" linked="0" mute="0" solo="0" height="371" minimized="0" isSelected="0" rate="44100" gain="1.0" pan="1.0" colorindex="0">
+		<waveclip offset="0.00000000" colorindex="0">
+			<sequence maxsamples="262144" sampleformat="262159" numsamples="127643">
+				<waveblock start="0">
+					<simpleblockfile filename="e0808535.au" len="127643" min="-1.050189" max="1.103045" rms="0.147716"/>
+				</waveblock>
+			</sequence>
+			<envelope numpoints="0"/>
+		</waveclip>
+	</wavetrack>
+	<wavetrack name="gunshot_original" channel="2" linked="0" mute="0" solo="0" height="382" minimized="0" isSelected="0" rate="44100" gain="1.0" pan="-1.0" colorindex="0">
+		<waveclip offset="0.02741497" colorindex="0">
+			<sequence maxsamples="262144" sampleformat="262159" numsamples="127643">
+				<waveblock start="0">
+					<simpleblockfile filename="e0808998.au" len="20640" min="-0.977478" max="0.979462" rms="0.361993"/>
+				</waveblock>
+				<waveblock start="20640">
+					<simpleblockfile filename="e0808f50.au" len="107003" min="-0.221649" max="0.274994" rms="0.02395"/>
+				</waveblock>
+			</sequence>
+			<envelope numpoints="0"/>
+		</waveclip>
+	</wavetrack>
+</project>
