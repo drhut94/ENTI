@@ -2,3 +2,11 @@
 en los que se escuchaban mas los agudos y los he recortado.
 
 He duplicado la pista y la he hecho stereo. Despues he desplazado unos pocos milisegundos la segunda pista y he augmentado un poco los agudos de la primera pista.
+
+He cogido varios efectos de lase y los he unido para crear un disparo con un eco.
+
+He subido la intensidad del dialogo y he bajado la intensidad del ruido de fondo.
+
+He añadido un sonido de mar al exterior y he puesto un fade in y fade out para que no se note cuando vuelve a empezar el loop
+
+He usado el analisis de aspectro para ver que dos frequencias destacaban en cada tono.
