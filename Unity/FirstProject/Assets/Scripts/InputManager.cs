@@ -6,7 +6,7 @@ using UnityEngine.Assertions;
 public class InputManager : MonoBehaviour
 {
     #region Singleton
-    InputManager instance;
+    public static InputManager instance;
 
     public void Awake() {
         if(instance == null) {
@@ -18,4 +18,6 @@ public class InputManager : MonoBehaviour
 
     }
     #endregion
+    
+
 }
