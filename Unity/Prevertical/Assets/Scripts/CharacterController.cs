@@ -31,6 +31,11 @@ public class CharacterController : MonoBehaviour
 
     private void FixedUpdate() {
         rb.AddForce(new Vector3(verticalInput * -1, 0, horizontalInput) * moveForce, ForceMode.Force);
+        Jump();
+        ApplyNormalGravity();
+    }
+
+    void Jump() {
         if (jumpInput) {
             rb.AddForce(new Vector3(0, jumpForce, 0), ForceMode.Impulse);
         }
@@ -41,5 +46,9 @@ public class CharacterController : MonoBehaviour
         horizontalInput = Input.GetAxis("Horizontal");
         verticalInput = Input.GetAxis("Vertical");
         jumpInput = Input.GetKeyDown(KeyCode.Space);
+    }
+
+    void ApplyNormalGravity() {
+
     }
 }
